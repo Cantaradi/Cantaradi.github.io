@@ -1,0 +1,131 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.imglist {
+    text-align: center;
+}
+
+.imglist>img {
+    width: 30%;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+}
+
+.imglist>img:hover {
+    box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+    width: 32%;
+}
+
+.container {
+    border-color: #5e6550;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #aebde0;
+    border-radius: 10px;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+.header {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.photo {
+    width: 15vw;
+    height: 15vw;
+    background-image: url(../img/4.jpg);
+    background-size: 15vw;
+    background-position-x: -0vw;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
+}
+
+.info {
+    margin-left: 10px;
+    float: left;
+}
+
+div.info>div.name {
+    margin-top: 0px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.video {
+    text-align: center;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+}
+
+.btn-purple {
+    background-color: #a82bb7;
+    color: #fff;
+}
+
+.btn-purple:hover {
+    background-color: #6f1d79;
+}
+
+.btn-blue {
+    background-color: #606db7;
+    color: #fff;
+}
+
+.btn-blue:hover {
+    background-color: #3b4994;
+}
+
+.btn-yellow {
+    background-color: #F57C00;
+    color: #fff;
+}
+
+.btn-yellow:hover {
+    background-color: #c56604;
+}
+
+.btn-pink {
+    background-color: #e6a9a3;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 35px
+}
+
+.btn-pink:hover {
+    background-color: #b28782;
+}
+
+.btn-lg {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.btn-sm {
+    padding: 4px 6px;
+    font-size: 10px;
+}
